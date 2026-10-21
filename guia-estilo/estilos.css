@@ -1,0 +1,131 @@
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f3fc;
+    color: #35243f;
+}
+
+/* Encabezado */
+header {
+    background-color: #6844a0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.seccion {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #00000015;
+}
+
+h2 {
+    color: #6844a0;
+}
+
+/* Paleta de colores */
+.colores {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.color {
+    padding: 25px;
+    border-radius: 8px;
+    color: white;
+    flex: 1;
+    text-align: center;
+}
+
+.color1 {
+    background-color: #6844a0;
+}
+
+.color2 {
+    background-color: #b99add;
+}
+
+.color3 {
+    background-color: #d98bb8;
+}
+
+/* Acordeón */
+details {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Campo resaltado al recibir el foco */
+input {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6844a0;
+    box-shadow: 0 0 8px #b99add;
+}
+
+/* Botones con efecto 3D */
+.boton3d {
+    background-color: #6844a0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 5px #43266d;
+    margin: 8px;
+}
+
+.boton3d:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px #43266d;
+}
+
+.boton-secundario {
+    background-color: #d98bb8;
+    box-shadow: 0 5px #a65d87;
+}
+
+/* Enlace animado con cambio de color */
+.enlace {
+    color: #6844a0;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+.enlace:hover {
+    color: #d98bb8;
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #6844a0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
